@@ -19,7 +19,7 @@ function Forms({ callback }) {
         };
 
         try {
-            const response = await fetch('http://localhost:4000/v1/promo/login', {
+            const response = await fetch('https://promo-back.vercel.app/v1/promo/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

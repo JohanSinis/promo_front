@@ -14,7 +14,7 @@ const LoginAdmin = ({ callback }) => { // Añadir callback aquí
         const datos = { username, password };
 
         try {
-            const response = await fetch('http://localhost:4000/v1/promo/loginadmin', {
+            const response = await fetch('https://promo-back.vercel.app/v1/promo/loginadmin', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

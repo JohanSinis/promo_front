@@ -10,7 +10,7 @@ const Ganadores = () => {
 
     const obtenerGanadores = async () => {
         try {
-            const response = await fetch('http://localhost:4000/v1/promo/ganadores', {
+            const response = await fetch('https://promo-back.vercel.app/v1/promo/ganadores', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

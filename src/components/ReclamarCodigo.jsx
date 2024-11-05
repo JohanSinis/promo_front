@@ -21,7 +21,7 @@ const ReclamarCodigo = ({ userId }) => {
         setCargando(true); // Mostrar indicador de carga
 
         try {
-            const response = await fetch('http://localhost:4000/v1/promo/reclamar', {
+            const response = await fetch('https://promo-back.vercel.app/v1/promo/reclamar', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ const ReclamarCodigo = ({ userId }) => {
 
     const obtenerHistorial = async (userId) => {
         try {
-            const response = await fetch(`http://localhost:4000/v1/promo/historial/${userId}`, {
+            const response = await fetch(`https://promo-back.vercel.app/v1/promo/historial/${userId}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

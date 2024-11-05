@@ -34,7 +34,7 @@ function Registro() {
         throw new Error("Correo no es válido");
       }
 
-      const response = await fetch('http://localhost:4000/v1/promo/register', {
+      const response = await fetch('https://promo-back.vercel.app/v1/promo/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
