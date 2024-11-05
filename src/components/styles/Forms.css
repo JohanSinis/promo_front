@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-image: url('https://i.imgur.com/CRUFrFz.png'); /* Cambia a la imagen que deseas usar */
+    background-image: url('/imagen.png'); /* Cambia a la imagen que deseas usar */
     background-size: cover;
     background-position: center;
     font-family: 'Open Sans', sans-serif;

@@ -37,7 +37,7 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url('https://i.imgur.com/CRUFrFz.png'); /* Cambia a tu imagen */
+  background-image: url('/imagen.png'); /* Cambia a tu imagen */
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
