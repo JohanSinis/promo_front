@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Open+Sans:wght@700&family=Poppins:wght@500&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url('imagen.png'); /* Cambia a la imagen que deseas usar */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.new-admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea los elementos del formulario al inicio (izquierda) */
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo claro semi-transparente */
+    border-radius: 20px; /* Bordes redondeados */
+    max-width: 400px; /* Limita el ancho máximo del contenedor */
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: auto; /* Centra el contenedor */
+    position: relative; /* Cambia a `absolute` o `fixed` si necesitas un posicionamiento más controlado */
+    top: 20px;
+}
+
+.new-admin-container h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    color: #333; /* Color del texto del título */
+    margin-bottom: 10px;
+    text-align: left; /* Alinea el título a la izquierda */
+}
+
+.form-group {
+    color: #000000; /* Color del texto de las etiquetas */
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 0.9rem;
+    color: #000000; /* Color de las etiquetas */
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados para los inputs */
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo de los inputs */
+    color: hsl(0, 0%, 0%); /* Color del texto en los inputs */
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.form-group input::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Color de los placeholders */
+}
+
+.register-button, .back-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.register-button {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.register-button:hover {
+    background-color: rgba(0, 0, 0, 1); /* Fondo completamente opaco al hacer hover */
+}
+
+.back-button {
+    background-color: #861691;
+}
+
+.back-button:hover {
+    background-color: #721473; /* Color más oscuro al pasar el ratón */
+}
+
+.error-message,
+.success-message {
+    font-size: 0.9rem;
+    color: #df8c78; /* Rojo para errores */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .new-admin-container {
+        padding: 30px;
+        width: 90%;
+    }
+
+    .new-admin-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input {
+        padding: 10px;
+    }
+
+    .register-button,
+    .back-button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .new-admin-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .new-admin-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-group input {
+        padding: 8px;
+    }
+
+    .register-button,
+    .back-button {
+        padding: 8px;
+    }
+}

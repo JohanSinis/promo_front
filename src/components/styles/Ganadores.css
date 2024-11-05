@@ -1,0 +1,50 @@
+.ganadores-container {
+    padding: 20px;
+    background-color: rgba(37, 35, 35, 0.8); /* Fondo negro con transparencia */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin: 20px auto;
+    max-width: 80%;
+    font-family: 'Poppins', sans-serif; /* Fuente principal */
+}
+
+.ganadores-container h2 {
+    font-family: 'Oswald', sans-serif; /* Título con Oswald */
+    color: #fff; /* Asegura visibilidad en el fondo oscuro */
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif; /* Fuente para el contenido de la tabla */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+th {
+    background-color: rgba(162, 58, 175, 0.9);
+    font-family: 'Open Sans', sans-serif; /* Fuente para encabezados de tabla */
+    font-weight: bold;
+}
+
+.loader {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff; /* Color blanco para contraste */
+}
+
+.mensaje-error {
+    color: red;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
