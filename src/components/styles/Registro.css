@@ -27,7 +27,7 @@ body {
     align-items: center;
     min-width: 320px;
     min-height: 100vh;
-    background-image: url('imagen2.png'); /* Cambia a la imagen que deseas usar */
+    background-image: url('imagen.png'); /* Cambia a la imagen que deseas usar */
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
